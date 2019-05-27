@@ -87,6 +87,7 @@ type NotificationPayload struct {
 	TitleLocArgs     string `json:"title_loc_args,omitempty"`
 	AndroidChannelID string `json:"android_channel_id,omitempty"`
 	MutableContent   bool   `json:"mutable_content,omitempty"`
+	Category         string `json:"category,omitempty"`
 }
 
 // NewFcmClient init and create fcm client
